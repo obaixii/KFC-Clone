@@ -1,7 +1,21 @@
-function Main(){
+function Main({products}){
+    
     return(
         <>
-        <h2>This is Main</h2>
+        <main>
+        {
+            products.map(product=>{
+                return(
+                    <>
+                    <h1>{product.title}</h1>
+                    <p>{product.description}</p>
+                    <p>{product.price}</p>
+                    <p>{product.stock}</p>
+                    </>
+                )
+            })
+        }
+        </main>
         </>
     )
 }

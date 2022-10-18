@@ -1,11 +1,8 @@
-function Header({person}){
-    return(
-        <>
-        <h2>This is Header</h2>
-        <p>{person.name}</p>
-        <p>{person.age}</p>
-        <p>{person.salary}</p>
-        </>
-    )
+function Header() {
+  return (
+    <>
+      <h2>This is Header</h2>
+    </>
+  );
 }
-export default Header
+export default Header;
