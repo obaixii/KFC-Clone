@@ -1,21 +1,23 @@
-import Header from "./Components/Header"
-import Main from "./Components/Main"
-import Footer from "./Components/Footer"
-import CategoriesCard from "./Components/CategoriesCard"
-import {data} from "./data/data"
-import Slider from "./Components/Slider"
+import { Route,Router, Routes} from "react-router-dom"
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+
 function App() {
 
   return(
-    <>
+
     <div className="container">
-      <Header/>
-      <Slider/>
-      <CategoriesCard categories={data.categories}/>
-      <Main products={data.products}/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+      </Routes>
+
     </div>
-    </>
+
   )
   }
 export default App;

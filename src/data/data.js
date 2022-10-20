@@ -2,65 +2,65 @@ export const data = {
   "products": [
     {
       "id": 1,
-      "title": "Crunch",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "title": "Chicken N Chips",
+      "description": "2 pieces of Hot and Crispy Fried Chicken+ fries+ dinner roll+ signature Vietnamese Sauce",
       "image": "images/1.png",
       "price": 200,
       "stock": 10
     },
     {
       "id": 2,
-      "title": "Hot n Spicy",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      "image": "images/1.png",
+      "title": "3 Pcs Chicken",
+      "description": "3 pieces of Hot and Crispy Fried Chicken",
+      "image": "images/2.png",
       "price": 200,
       "stock": 10
     },
     {
       "id": 3,
-      "title": "Spicy",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      "image": "images/1.png",
+      "title": "Krunch Chicken Combo",
+      "description": "1 Krunch burger + 1 pc of Hot and Crispy Fried Chicken + 1 regular drink",
+      "image": "images/3.png",
       "price": 200,
       "stock": 10
     },
     {
       "id": 4,
-      "title": "Cheese",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      "image": "images/1.png",
+      "title": "Zingeratha",
+      "description": "Crispy chicken, sliced onions, tangy imli chutney, mint mayo, wrapped in a soft paratha",
+      "image": "images/4.png",
       "price": 200,
       "stock": 10
     },
     {
       "id": 5,
-      "title": "Family",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      "image": "images/1.png",
+      "title": "Krunch Burger + Drink",
+      "description": "1 Krunch burger + 1 regular drink",
+      "image": "images/5.png",
       "price": 200,
       "stock": 10
     },
     {
       "id": 6,
-      "title": "Special",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      "image": "images/1.png",
+      "title": "Krunch With Fries N Drink",
+      "description": "Krunch + 1 regular Fries + 1 regular Drink",
+      "image": "images/6.png",
       "price": 200,
       "stock": 10
     },
     {
       "id": 7,
-      "title": "Kids Special",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      "image": "images/1.png",
+      "title": "Rice N Spice",
+      "description": "Spiced, buttery rice with 6 pcs of Hot Shots topped with our signature Vietnamese sauce",
+      "image": "images/7.png",
       "price": 200,
       "stock": 10
     },
     {
       "id": 8,
-      "title": "Meal",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      "image": "images/1.png",
+      "title": "Krunch Burgers",
+      "description": "Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun",
+      "image": "images/8.png",
       "price": 200,
       "stock": 10
     }

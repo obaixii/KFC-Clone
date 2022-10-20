@@ -1,7 +1,6 @@
 import Card from "../Cards/card";
 function Main({ products }) {
   return (
-    <>
       <main>
         <div className="top-selling">
           <div className="row">
@@ -16,7 +15,6 @@ function Main({ products }) {
           </div>
         </div>
       </main>
-    </>
   );
 }
 export default Main;
