@@ -7,7 +7,7 @@ function Main({ products }) {
             <h2 className="top-sell-txt">Top selling</h2>
             {products.map((product) => {
               return (
-                <div className="col-md-3 mb-4" key={product.id}>
+                <div className="col-sm-6 col-md-6 col-lg-3 mb-4" key={product.id}>
                   <Card products={product} />
                 </div>
               );

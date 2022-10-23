@@ -1,7 +1,7 @@
 // import slidePicture from ".../images/Slider-Images"
-function Slider({ }) {
+function Slider() {
   return (
-    <div>
+    <div className="sliderContent mb-4">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
