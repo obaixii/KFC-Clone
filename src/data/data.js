@@ -6,7 +6,8 @@ export const data = {
       "description": "2 pieces of Hot and Crispy Fried Chicken+ fries+ dinner roll+ signature Vietnamese Sauce",
       "image": "images/Products-Images/1.png",
       "price": 200,
-      "stock": 10
+      "stock": 10,
+      "category": "Everyday Value"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@ export const data = {
       "description": "3 pieces of Hot and Crispy Fried Chicken",
       "image": "images/Products-Images/2.png",
       "price": 200,
-      "stock": 10
+      "stock": 10,
+      "category": "Ala Carte & Combos"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@ export const data = {
       "description": "1 Krunch burger + 1 pc of Hot and Crispy Fried Chicken + 1 regular drink",
       "image": "images/Products-Images/3.png",
       "price": 200,
-      "stock": 10
+      "stock": 10,
+      "category": "Signature Boxes"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@ export const data = {
       "description": "Crispy chicken, sliced onions, tangy imli chutney, mint mayo, wrapped in a soft paratha",
       "image": "images/Products-Images/4.png",
       "price": 200,
-      "stock": 10
+      "stock": 10,
+      "category": "Sharing"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@ export const data = {
       "description": "1 Krunch burger + 1 regular drink",
       "image": "images/Products-Images/5.png",
       "price": 200,
-      "stock": 10
+      "stock": 10,
+      "category": "Snacks & Beverages"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@ export const data = {
       "description": "Krunch + 1 regular Fries + 1 regular Drink",
       "image": "images/Products-Images/6.png",
       "price": 200,
-      "stock": 10
+      "stock": 10,
+      "category": "Midnight"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@ export const data = {
       "description": "Spiced, buttery rice with 6 pcs of Hot Shots topped with our signature Vietnamese sauce",
       "image": "images/Products-Images/7.png",
       "price": 200,
-      "stock": 10
+      "stock": 10,
+      "category": "Everyday Value"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@ export const data = {
       "description": "Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun",
       "image": "images/Products-Images/8.png",
       "price": 200,
-      "stock": 10
+      "stock": 10,
+      "category": "Ala Carte & Combos"
     }
   ],
   "categories": [
@@ -86,41 +94,21 @@ export const data = {
     },
     {
       "id": 4,
-      "title": "name",
+      "title": "Midnight",
       "image": "images/Categories-images/cat4.png",
       "description": "",
     },
     {
       "id": 5,
-      "title": "name",
+      "title": "Snacks & Beverages",
       "image": "images/Categories-images/cat5.png",
       "description": "",
     },
     {
       "id": 6,
-      "title": "name",
+      "title": "Sharing",
       "image": "images/Categories-images/cat6.png",
       "description": "",
     }
   ],
-  // "slide":[
-  //   {
-  //     "id": 1,
-  //     "title": "Slider One",
-  //     "image": "images/Slider-Images/slider1.png",
-  //     "description": "",
-  //   },
-  //   {
-  //     "id": 2,
-  //     "title": "Slider Two",
-  //     "image": "images/Slider-Images/slider1.png",
-  //     "description": "",
-  //   },
-  //   {
-  //     "id": 3,
-  //     "title": "Slider Three",
-  //     "image": "images/Slider-Images/slider1.png",
-  //     "description": "",
-  //   },
-  // ]
 }

@@ -18,7 +18,7 @@ function Header() {
               </ul>
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link" aria-current="page" to="#" element=""><i class="bi bi-pin-map-fill"></i> <span className="txt-white">Select Location</span> <i class="bi bi-chevron-down txt-white"></i></Link>
+                  <Link className="nav-link" aria-current="page" to="#" element=""><i className="bi bi-pin-map-fill"></i> <span className="txt-white">Select Location</span> <i className="bi bi-chevron-down txt-white"></i></Link>
                 </li>
                 <li className="nav-item">
                   <Link className="btn btn-card-counter" aria-current="page" to="#">0</Link>

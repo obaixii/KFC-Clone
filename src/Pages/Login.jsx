@@ -36,7 +36,7 @@ function Login() {
                         <p className="altText-inner"><span className="bg-dim">or login with</span></p>
                       </div>
                       <div className="altGoogle">
-                      <Link><i class="bi bi-google"></i></Link>
+                      <Link><i className="bi bi-google"></i></Link>
                       </div>
                     </div>
                   </form>

@@ -15,13 +15,13 @@ function Contact() {
               <div className="loc-col-inner">
                 <div className="officeNumber">
                   <h6>
-                    <i class="bi bi-telephone-fill"></i>Head Office
+                    <i className="bi bi-telephone-fill"></i>Head Office
                   </h6>
                   <p>0213-5877976</p>
                 </div>
                 <div className="officeLocation">
                   <h6>
-                    <i class="bi bi-geo-alt-fill"></i>Location
+                    <i className="bi bi-geo-alt-fill"></i>Location
                   </h6>
                   <p>
                     Ocean Tower, 20th Floor, G-3, Block -9, Scheme 5, Main
@@ -34,13 +34,13 @@ function Contact() {
               <div className="loc-col-inner">
                 <div className="officeNumber">
                   <h6>
-                    <i class="bi bi-telephone-fill"></i>Regional Office Lahore
+                    <i className="bi bi-telephone-fill"></i>Regional Office Lahore
                   </h6>
                   <p>0042-35884570</p>
                 </div>
                 <div className="officeLocation">
                   <h6>
-                    <i class="bi bi-geo-alt-fill"></i>Location
+                    <i className="bi bi-geo-alt-fill"></i>Location
                   </h6>
                   <p>
                     27-A Ali Block New Garden Town Opposite Barkat Market Lahore
@@ -52,14 +52,14 @@ function Contact() {
               <div className="loc-col-inner">
                 <div className="officeNumber">
                   <h6>
-                    <i class="bi bi-telephone-fill"></i>Regional Office
+                    <i className="bi bi-telephone-fill"></i>Regional Office
                     Islamabad
                   </h6>
                   <p>0512726877</p>
                 </div>
                 <div className="officeLocation">
                   <h6>
-                    <i class="bi bi-geo-alt-fill"></i>Location
+                    <i className="bi bi-geo-alt-fill"></i>Location
                   </h6>
                   <p>
                     Ocean Tower, 20th Floor, G-3, Block -9, Scheme 5, Main
@@ -72,7 +72,7 @@ function Contact() {
               <div className="loc-col-inner">
                 <div className="officeNumber">
                   <h6>
-                    <i class="bi bi-telephone-fill"></i>Helpline
+                    <i className="bi bi-telephone-fill"></i>Helpline
                   </h6>
                   <p>UAN: 111 532 532</p>
                 </div>
@@ -82,7 +82,7 @@ function Contact() {
               <div className="loc-col-inner">
                 <div className="officeNumber">
                   <h6>
-                    <i class="bi bi-envelope-fill"></i>Complaints Email
+                    <i className="bi bi-envelope-fill"></i>Complaints Email
                   </h6>
                   <p>UAN: 111 532 532</p>
                 </div>

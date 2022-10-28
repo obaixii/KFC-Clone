@@ -10,13 +10,13 @@ function Footer() {
             </div>
             <div className="footerSocial">
                 <div className="youtubeLink">
-              <Link><i class="bi bi-youtube"></i></Link>
+              <Link><i className="bi bi-youtube"></i></Link>
                 </div>
                 <div className="instagramLink">
-                <Link><i class="bi bi-instagram"></i></Link>
+                <Link><i className="bi bi-instagram"></i></Link>
                 </div>
                 <div className="facobookLink">
-                <Link><i class="bi bi-facebook"></i></Link>
+                <Link><i className="bi bi-facebook"></i></Link>
                 </div>
             </div>
         </div>
