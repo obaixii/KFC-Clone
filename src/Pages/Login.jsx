@@ -21,11 +21,11 @@ function Login() {
                       <h4>Welcome!</h4>
                     </div>
                     <div className="userName inputBox">
-                    <input type="text" name="name" className="inputLogin" id="" required="required"/>
+                    <input type="text" name="name" className="inputLogin" id="userName" required="required"/>
                     <span>Username</span>
                     </div>
                     <div className="userNumber inputBox">
-                    <input type="password" name="phoneNumber" className="inputLogin" id="" required="required"/>
+                    <input type="password" name="phoneNumber" className="inputLogin" id="userPassword" required="required"/>
                     <span>Password</span>
                     </div>
                     <div className="userLogin">

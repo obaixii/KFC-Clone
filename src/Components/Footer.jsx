@@ -6,7 +6,7 @@ function Footer() {
       <div className="row footerInner">
         <div className="col-md-12 footerMain">
             <div className="footerLogo">
-              <img src="../images/Main-Images/KFC-Logo-Red.png" alt="" />
+              <Link to="/"><img src="../images/Main-Images/KFC-Logo-Red.png" alt="" /></Link>
             </div>
             <div className="footerSocial">
                 <div className="youtubeLink">
@@ -26,10 +26,10 @@ function Footer() {
               <div className="col-inner information">
                   <div className="inner-content">
                   <h4>Information</h4>
-                <Link className="d-block mb-2" to="/about">About Us</Link>
-                <Link className="d-block mb-2" to="/MithaoBhook">Mithao Bhook</Link>
+                <Link className="d-block mb-2" to="/about-us">About Us</Link>
+                <Link className="d-block mb-2" to="/mitao-bhook">Mithao Bhook</Link>
                 <Link className="d-block mb-2" to="/policy">Privacy Policy</Link>
-                <Link className="d-block mb-2" to="/career">Career</Link>
+                <Link className="d-block mb-2" to="/careers">Career</Link>
                   </div>
               </div>
             </div>
@@ -42,7 +42,7 @@ function Footer() {
             <div className="col-sm-6 col-md-3 mb-4">
                 <div className="col-inner">
                 <h4>Get In Touch</h4>
-                <Link className="d-block mb-2" to="/termscondition">Terms and Conditions</Link>
+                <Link className="d-block mb-2" to="/terms-condition">Terms and Conditions</Link>
                 </div>
             </div>
             <div className="col-sm-12 col-md-3 mb-4">

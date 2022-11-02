@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 function Cards({products}) {
   return (
-    <>
     <div className="card h-100" style={{width: "100%"}}>
+      <div className="card-img-main">
       <img src={products.image} className="card-img-top" alt="..." />
+      </div>
       <div className="card-body">
         <h5 className="card-title">{products.title}</h5>
         <p className="card-text">{products.description}</p>
@@ -13,7 +14,6 @@ function Cards({products}) {
         </div>
       </div>
     </div>
-    </>
   );
 }
 
