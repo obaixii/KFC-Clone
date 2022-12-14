@@ -2,10 +2,9 @@ import Header from "../Components/Header"
 import CategoriesCard from "../Components/CategoriesCard"
 import Footer from "../Components/Footer"
 import {data} from "../data/data"
-import {Link} from "react-router-dom"
-import {useParams} from "react-router-dom"
+import {Link,useParams} from "react-router-dom"
 import { useState } from "react"
-
+import {convertToSlug} from "../utilityFunctions/utils"
 function Detail() {
   let [num,setNum] = useState(1)
   let handleIncreament = ()=>{
@@ -13,10 +12,6 @@ function Detail() {
   }
   let handleDecreament = ()=>{
     setNum(num-1)
-  }
-    // convertToSlug Function
-  function convertToSlug(text) {
-    return  text.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
   }
  
   // Params Function

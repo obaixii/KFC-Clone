@@ -1,6 +1,7 @@
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import "../CSS/contact.css";
+
 function Contact() {
   return (
     <div>
@@ -94,27 +95,22 @@ function Contact() {
           <h2>Search Stores</h2>
           <div className="searchLocation">
             <div className="row">
-              <div className="col-md-6 mb-4">
+              <div className="col-md-6 col-sm-6  mb-4">
                 <select id="">
-                  <option value="" selected>Pakistan</option>
+                  <option value="Pakistan" defaultValue="Pakistan">Pakistan</option>
                 </select>
               </div>
-              <div className="col-md-6 mb-4">
+              <div className="col-md-6 col-sm-6 mb-4">
                 <select id="">
-                  <option value="" selected disabled hidden>City</option>
-                  <option value="Rwl">Rawalpindi</option>
-                  <option value="Isl">Islamabad</option>
-                  <option value="Lhr">Lahore</option>
-                  <option value="Kar">Karachi</option>
-                  <option value="Mul">Multan</option>
-                  <option value="Psh">Peshawer</option>
+                  <option id="">Select City</option>
+
                 </select>
               </div>
             </div>
           </div>
         </div>
         <div className="googlemap">
-          
+
         </div>
       </div>
       <Footer />

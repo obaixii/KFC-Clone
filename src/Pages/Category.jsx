@@ -1,21 +1,19 @@
 import Header from "../Components/Header";
 import CategoriesCard from "../Components/CategoriesCard";
 import Footer from "../Components/Footer";
-import { data } from "../data/data";
-import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
 import Card from "../Cards/card";
+import { data } from "../data/data";
+import { useParams,Link } from "react-router-dom";
+import {convertToSlug} from "../utilityFunctions/utils";
+
 function Category() {
-  // convertToSlug Function
-  function convertToSlug(text) {
-    return text.toLowerCase().replace(/ /g, "-").replace(/[^\w-]+/g, "");
-  }
+
   const {slug} = useParams()
   const p = data.products.filter((product)=>convertToSlug(product.category)===slug)
-  console.log(p)
+
   return (
     <div>
-      <Header />
+      <Header/>
       <CategoriesCard categories={data.categories} />
       <div className="row">
       { p.map((product) => {

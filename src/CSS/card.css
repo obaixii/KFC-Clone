@@ -1,0 +1,106 @@
+.my-col {
+    width: 100%;
+    margin-right: 5rem;
+    padding: 1rem;
+}
+
+.myCard {
+    background: #1c1816;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.myCardInner {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-img-top img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.3rem;
+}
+
+.card-body {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #D4D4D4;
+}
+
+.card-body a {
+    margin-top: auto;
+    align-items: flex-end;
+}
+
+.cards-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.card-add-to-button .btn-plus {
+    display: none;
+    /* visibility: hidden; */
+}
+
+.bi-plus-lg {
+    color: red;
+}
+
+/* Media Queries for Small screens */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.625rem;
+    }
+
+    .card-add-to-button .btn-plus {
+        display: inline-block;
+    }
+
+    .card-add-to-button .my-btn {
+        /* visibility: hidden; */
+        display: none;
+    }
+}
+
+/* Media Queries for Small screens */
+@media (max-width: 576px) {
+    .card-title {
+        margin-bottom: 0.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+    }
+
+    .card-text {
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

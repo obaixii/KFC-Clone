@@ -66,12 +66,12 @@ a:hover {
   overflow: hidden;
 }
 
-.card-img-top {
-  transition: .5s;
+.card-img-top img{
+  transition: transform 0.3s ease-in-out;
 }
 
-.card-img-top:hover {
-  transform: scale(1.1);
+.card-img-top img:hover {
+  transform: scale(1.07,1.07);
 }
 
 .categoryHeading {
@@ -115,16 +115,4 @@ a:hover {
 }
 .my-row::-webkit-scrollbar{
   width: 0;
-}
-.my-col{
-  width: 100%;
-  margin-right: 5rem;
-  padding: 1rem;
-}
-.img-thumbnail-my {
-  min-width: 100%;
-  height: auto;
-  line-height: 110px;
-  padding: 0.25rem;
-  margin: 0.25rem;
 }

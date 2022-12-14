@@ -9,12 +9,10 @@ import Career from "./Pages/Career";
 import TermsConditions from "./Pages/TermsConditions";
 import MithaoBhook from "./Pages/MithaoBhook";
 import Category from "./Pages/Category";
-import Countries from "./Pages/Countries";
 
 function App() {
 
   return(
-
     <div className="container">
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -27,7 +25,6 @@ function App() {
         <Route path="/terms-condition" element={<TermsConditions/>}/>
         <Route path="/product/:slug" element={<Detail/>}/>
         <Route path="/category/:slug" element={<Category/>}/>
-        <Route path="/countries" element={<Countries/>}/>
       </Routes>
 
     </div>

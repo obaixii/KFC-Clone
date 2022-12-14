@@ -1,13 +1,6 @@
 import { Link } from "react-router-dom";
-
+import {convertToSlug} from "../utilityFunctions/utils"
 function CategoriesCard({ categories }) {
-
-  //  convertToSlug Function
-   function convertToSlug(text) {
-    return text.toLowerCase().replace(/ /g, "-").replace(/[^\w-]+/g, "");
-  };
-
-
 
   return (
     <div className="categoryContent mb-5 mt-5">

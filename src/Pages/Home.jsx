@@ -1,9 +1,9 @@
-import Header from "../Components/Header"
-import Main from "../Components/Main"
-import Footer from "../Components/Footer"
-import CategoriesCard from "../Components/CategoriesCard"
-import {data} from "../data/data"
-import Slider from "../Components/Slider"
+import Header from "../Components/Header";
+import Main from "../Components/Main";
+import Footer from "../Components/Footer";
+import CategoriesCard from "../Components/CategoriesCard";
+import {data} from "../data/data";
+import Slider from "../Components/Slider";
 
 function Home() {
   return (
@@ -17,4 +17,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

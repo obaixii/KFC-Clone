@@ -21,7 +21,7 @@ function Header() {
                   <Link className="nav-link" aria-current="page" to="#" element=""><i className="bi bi-pin-map-fill"></i> <span className="txt-white">Select Location</span> <i className="bi bi-chevron-down txt-white"></i></Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="btn btn-card-counter" aria-current="page" to="/countries">Countries</Link>
+                  <Link className="btn btn-card-counter" aria-current="page" to="#">0</Link>
                 </li>
                 <li className="nav-item">
                 <Link className="btn btn-danger ms-2" to="/login">Register / Sign in</Link>

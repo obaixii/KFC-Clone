@@ -3,7 +3,7 @@ import Footer from "../Components/Footer";
 import "../CSS/policy.css";
 import { Link } from "react-router-dom";
 
-function Policy() {
+function  Policy() {
   return (
     <div>
       <Header />
